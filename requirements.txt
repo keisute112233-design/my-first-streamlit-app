@@ -1,3 +1,5 @@
 streamlit
-pytesseract
 pillow
+requests
+pytesseract     # ローカルでTesseractを使うため。クラウドでは自動的にAPIに切替
+pandas          # 指摘一覧を表で表示したい場合（任意）
